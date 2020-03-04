@@ -5,6 +5,6 @@ class ShinyLamp {
   }
 
   shineBright() {
-    this.brightness++;
+    this.brightness += 3;
   }
 }
