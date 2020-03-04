@@ -7,4 +7,6 @@ class ShinyLamp {
   shineBright() {
     this.brightness += 3;
   }
+
+  rubLamp() {}
 }
