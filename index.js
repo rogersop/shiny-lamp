@@ -13,4 +13,10 @@ class ShinyLamp {
     this.brightness++;
     this.wishes = 3;
   }
+
+  makeWish() {
+    if (this.wishes > 0) {
+      this.wishes--;
+    }
+  }
 }
