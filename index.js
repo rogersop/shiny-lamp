@@ -3,6 +3,7 @@ class ShinyLamp {
     this.colour = colour;
     this.brightness = 0;
     this.wishes = 0;
+    this.message = ''
   }
 
   shineBright() {
@@ -11,7 +12,8 @@ class ShinyLamp {
 
   rubLamp() {
     this.brightness++;
-    this.wishes = 3;
+    this.wishes = 7;
+    this.message = 'Finally, it was getting cramped in there. Thanks for waking me, you now have 7 wishes'
   }
 
   makeWish() {
