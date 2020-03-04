@@ -2,11 +2,15 @@ class ShinyLamp {
   constructor(colour) {
     this.colour = colour;
     this.brightness = 0;
+    this.wishes = 0;
   }
 
   shineBright() {
     this.brightness += 3;
   }
 
-  rubLamp() {}
+  rubLamp() {
+    this.brightness++;
+    this.wishes = 3;
+  }
 }
